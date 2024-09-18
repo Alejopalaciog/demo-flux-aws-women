@@ -1,14 +1,14 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: example-app-1
+  name: example-app-2
   labels:
-    app: example-app-1
+    app: example-app-2
   namespace: default
 spec:
   selector:
     matchLabels:
-      app: example-app-1
+      app: example-app-2
   replicas: 2
   strategy:
     type: RollingUpdate
@@ -18,11 +18,11 @@ spec:
   template:
     metadata:
       labels:
-        app: example-app-1
+        app: example-app-2
     spec:
       containers:
-      - name: example-app-1
-        image: 314876856196.dkr.ecr.us-east-1.amazonaws.com/demo-flux-aws-women/example-app:latest
+      - name: example-app-2
+        image: docker.io/aimvector/example-app-2:0.0.2 # {"$imagepolicy": "default:example-app-2"}
         ports:
         - containerPort: 5000
         volumeMounts:
@@ -31,4 +31,4 @@ spec:
       volumes:
       - name: config-volume
         configMap:
-          name: example-app-1
+          name: example-app-2
