@@ -4,6 +4,7 @@
 
 ### Prerrequisitos
 - **Cuenta de AWS**
+- **Cuenta de GitHub**
 - **AWS CLI**
 - **Kubectl**
 - **Docker**
