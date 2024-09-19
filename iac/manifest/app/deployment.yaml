@@ -22,7 +22,7 @@ spec:
     spec:
       containers:
       - name: example-app-1
-        image: 314876856196.dkr.ecr.us-east-1.amazonaws.com/demo-flux-aws-women/example-app:0.0.2
+        image: 314876856196.dkr.ecr.us-east-1.amazonaws.com/demo-flux-aws-women/example-app:0.0.1
         ports:
         - containerPort: 5000
         volumeMounts:
