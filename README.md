@@ -160,6 +160,16 @@ Y procedemos a obtener su balanceador de carga para probarla
 
 De esta manera podemos crear una correcta integracion de FluxCD con nuestra infraestructura alojada en EKS de AWS
 
+## Estrategías
+## Base strategy
+
+![Diagrama sin título-FabricaPequeñaMediana](https://github.com/user-attachments/assets/d8f5a101-056c-4237-bff2-69983b1538a4)
+
+## Big strategy
+![Diagrama sin título-FabricaGrande](https://github.com/user-attachments/assets/239a77f3-a28b-4fba-8e0d-deccc36c0265)
+
+
+
 
 
 
